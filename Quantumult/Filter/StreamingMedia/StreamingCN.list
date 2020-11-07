@@ -1,65 +1,65 @@
 # (Video)
 # > Acfun
-DOMAIN-SUFFIX,acfun.cn,direct
-DOMAIN-SUFFIX,aixifan.com,direct
+DOMAIN-SUFFIX,acfun.cn,CNMedia
+DOMAIN-SUFFIX,aixifan.com,CNMedia
 # > bilibili
-DOMAIN-SUFFIX,biliapi.net,direct
-DOMAIN-SUFFIX,bilibili.com,direct
-DOMAIN-SUFFIX,bilivideo.com,direct
-DOMAIN-SUFFIX,hdslb.com,direct
+DOMAIN-SUFFIX,biliapi.net,CNMedia
+DOMAIN-SUFFIX,bilibili.com,CNMedia
+DOMAIN-SUFFIX,bilivideo.com,CNMedia
+DOMAIN-SUFFIX,hdslb.com,CNMedia
 # > Tencent Video
-DOMAIN-SUFFIX,video.qq.com,direct
-DOMAIN-SUFFIX,i.qq.com,direct
-DOMAIN-SUFFIX,v.qq.com,direct
+DOMAIN-SUFFIX,video.qq.com,CNMedia
+DOMAIN-SUFFIX,i.qq.com,CNMedia
+DOMAIN-SUFFIX,v.qq.com,CNMedia
 # > iQiyi
-DOMAIN-SUFFIX,iqiyi.com,direct
-DOMAIN-SUFFIX,71edge.com,direct
+DOMAIN-SUFFIX,iqiyi.com,CNMedia
+DOMAIN-SUFFIX,71edge.com,CNMedia
 # > Youku
-DOMAIN-SUFFIX,soku.com,direct
-DOMAIN-SUFFIX,youku.com,direct
-DOMAIN-SUFFIX,ykimg.com,direct
+DOMAIN-SUFFIX,soku.com,CNMedia
+DOMAIN-SUFFIX,youku.com,CNMedia
+DOMAIN-SUFFIX,ykimg.com,CNMedia
 # > XiGua
-DOMAIN-SUFFIX,ixigua.com,direct
-DOMAIN-SUFFIX,snssdk.com,direct
+DOMAIN-SUFFIX,ixigua.com,CNMedia
+DOMAIN-SUFFIX,snssdk.com,CNMedia
 # > HunanTV
-DOMAIN-SUFFIX,hitv.com,direct
-DOMAIN-SUFFIX,hunantv.com,direct
-DOMAIN-SUFFIX,mgtv.com,direct
+DOMAIN-SUFFIX,hitv.com,CNMedia
+DOMAIN-SUFFIX,hunantv.com,CNMedia
+DOMAIN-SUFFIX,mgtv.com,CNMedia
 # > Le
-DOMAIN-SUFFIX,le.com,direct
+DOMAIN-SUFFIX,le.com,CNMedia
 # > PPLive
-DOMAIN-SUFFIX,pplive.cn,direct
-DOMAIN-SUFFIX,pptv.com,direct
+DOMAIN-SUFFIX,pplive.cn,CNMedia
+DOMAIN-SUFFIX,pptv.com,CNMedia
 # > Sohu Video
-DOMAIN-SUFFIX,itc.cn,direct
-DOMAIN-SUFFIX,sohu.com,direct
+DOMAIN-SUFFIX,itc.cn,CNMedia
+DOMAIN-SUFFIX,sohu.com,CNMedia
 # > Migu Video
-DOMAIN-SUFFIX,cmvideo.cn,direct
-DOMAIN-SUFFIX,miguvideo.com,direct
+DOMAIN-SUFFIX,cmvideo.cn,CNMedia
+DOMAIN-SUFFIX,miguvideo.com,CNMedia
 
 # (Music)
 # > QQ Music
-DOMAIN-SUFFIX,music.qq.com,direct
-DOMAIN-SUFFIX,music.tc.qq.com,direct
-DOMAIN-SUFFIX,qqmusic.qq.com,direct
-DOMAIN-SUFFIX,tencentmusic.com,direct
-DOMAIN-SUFFIX,y.qq.com,direct
-DOMAIN,aqqmusic.tc.qq.com,direct
-DOMAIN,moo.qq.com,direct
+DOMAIN-SUFFIX,music.qq.com,CNMedia
+DOMAIN-SUFFIX,music.tc.qq.com,CNMedia
+DOMAIN-SUFFIX,qqmusic.qq.com,CNMedia
+DOMAIN-SUFFIX,tencentmusic.com,CNMedia
+DOMAIN-SUFFIX,y.qq.com,CNMedia
+DOMAIN,aqqmusic.tc.qq.com,CNMedia
+DOMAIN,moo.qq.com,CNMedia
 # > China Music Corp
-DOMAIN-SUFFIX,kuwo.cn,direct
-DOMAIN-SUFFIX,kugou.com,direct
+DOMAIN-SUFFIX,kuwo.cn,CNMedia
+DOMAIN-SUFFIX,kugou.com,CNMedia
 # > Netease Cloud Music
-DOMAIN-SUFFIX,music.163.com,direct
-DOMAIN-SUFFIX,music.126.net,direct
-DOMAIN,mam.netease.com,direct
-DOMAIN,api.iplay.163.com,direct
+DOMAIN-SUFFIX,music.163.com,CNMedia
+DOMAIN-SUFFIX,music.126.net,CNMedia
+DOMAIN,mam.netease.com,CNMedia
+DOMAIN,api.iplay.163.com,CNMedia
 # > Qianqian Music
-DOMAIN-SUFFIX,qianqian.com,direct
-DOMAIN-SUFFIX,taihe.com,direct
+DOMAIN-SUFFIX,qianqian.com,CNMedia
+DOMAIN-SUFFIX,taihe.com,CNMedia
 # > Migu Music
-DOMAIN-SUFFIX,migu.cn,direct
+DOMAIN-SUFFIX,migu.cn,CNMedia
 # > Xiaomi
-DOMAIN-SUFFIX,ai.xiaomi.com,direct
-DOMAIN-SUFFIX,music.xiaomi.com,direct
-DOMAIN-SUFFIX,dmhmusic.com,direct
+DOMAIN-SUFFIX,ai.xiaomi.com,CNMedia
+DOMAIN-SUFFIX,music.xiaomi.com,CNMedia
+DOMAIN-SUFFIX,dmhmusic.com,CNMedia
