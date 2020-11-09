@@ -1,0 +1,8 @@
+# GoogleVoice
+# > Google
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN,clientservices.googleapis.com,PROXY
+DOMAIN,firebaselogging-pa.googleapis.com,PROXY
+DOMAIN,play.googleapis.com,PROXY
+DOMAIN,people-pa.googleapis.com,PROXY
+DOMAIN,oauthaccountmanager.googleapis.com,PROXY
