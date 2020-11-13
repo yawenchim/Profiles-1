@@ -1,6 +1,0 @@
-# @by油管搜索Happy白嫖
-hostname = *
-CN url 307 US
-(?<=&mcc_mnc=)4 url 307 2
-(?<=version_code=)1[8-9]..(?=.?.?&) url 307 17
-(^https?:\/\/dm16[\w-]+\.\w+\.com\/.+)(\?\w{7}_\w{4}=\d{2}\.\d\.\d)(&.+) url 302 $1$3
