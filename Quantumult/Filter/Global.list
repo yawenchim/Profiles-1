@@ -521,6 +521,7 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
 DOMAIN-SUFFIX,18comic.vip,PROXY
 DOMAIN-SUFFIX,av01.tv,PROXY
+DOMAIN-SUFFIX,netflav.com,PROXY
 
 # (Network Jitter)
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
@@ -530,3 +531,4 @@ DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
+DOMAIN,ocsp.apple.com,PROXY
