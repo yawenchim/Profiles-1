@@ -1,6 +1,11 @@
 # > YouTube
 USER-AGENT,com.google.ios.youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
+USER-AGENT,*youtube*,YouTube
 DOMAIN-SUFFIX,googlevideo.com,YouTube
 DOMAIN-SUFFIX,youtube.com,YouTube
 DOMAIN,youtubei.googleapis.com,YouTube
+HOST-SUFFIX,gvt2.com,YouTube
+HOST-SUFFIX,youtu.be,YouTube
+HOST,yt3.ggpht.com,YouTub
+HOST-SUFFIX,ytimg.com,YouTube
