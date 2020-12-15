@@ -94,11 +94,12 @@ DOMAIN,d151l6v8er5bdm.cloudfront.net,GBMedia
 DOMAIN-KEYWORD,voddazn,GBMedia
 # > Disney+
 USER-AGENT,Disney+*,GBMedia
-DOMAIN-SUFFIX,disney-plus.net,GBMedia
+DOMAIN-SUFFIX,bamgrid.com,GBMedia
 DOMAIN-SUFFIX,disneyplus.com,GBMedia
+DOMAIN-SUFFIX,disney-plus.net,GBMedia
+DOMAIN-SUFFIX,disneyGBMedia.com,GBMedia
 DOMAIN-SUFFIX,dssott.com,GBMedia
 DOMAIN,cdn.registerdisney.go.com,GBMedia
-DOMAIN,global.edge.bamgrid.com,GBMedia
 # > DMM
 DOMAIN-SUFFIX,dmm.co.jp,GBMedia
 DOMAIN-SUFFIX,dmm.com,GBMedia
@@ -231,18 +232,6 @@ DOMAIN-SUFFIX,pbs.org,GBMedia
 USER-AGENT,TaiwanGood*,GBMedia
 DOMAIN-SUFFIX,skyking.com.tw,GBMedia
 DOMAIN,hamifans.emome.net,GBMedia
-# > TikTok
-USER-AGENT,TikTok*,GBMedia
-DOMAIN-SUFFIX,byteoversea.com,GBMedia
-DOMAIN-SUFFIX,ibytedtos.com,GBMedia
-DOMAIN-SUFFIX,ipstatp.com,GBMedia
-DOMAIN-SUFFIX,muscdn.com,GBMedia
-DOMAIN-SUFFIX,musical.ly,GBMedia
-DOMAIN-SUFFIX,tiktok.com,GBMedia
-DOMAIN-SUFFIX,tik-tokapi.com,GBMedia
-DOMAIN-SUFFIX,tiktokcdn.com,GBMedia
-DOMAIN-SUFFIX,tiktokv.com,GBMedia
-DOMAIN-KEYWORD,-tiktokcdn-com,GBMedia
 # > Twitch
 DOMAIN-SUFFIX,jtvnw.net,GBMedia
 DOMAIN-SUFFIX,ttvnw.net,GBMedia
