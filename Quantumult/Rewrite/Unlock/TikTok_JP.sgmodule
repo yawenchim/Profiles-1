@@ -1,0 +1,8 @@
+[rewrite_local]
+
+#tiktok解锁直播区域限制
+(?<=_region=)CN(?=&) JP 307
+(?<=&mcc_mnc=)4 2 307
+
+[MITM]
+hostname = %APPEND% *.tiktokv.com,*.byteoversea.com,api.abema.io,y.gtimg.cn,*.tik-tokapi.com,101.201.175.228,182.92.251.113
