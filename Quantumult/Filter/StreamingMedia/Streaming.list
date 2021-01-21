@@ -250,7 +250,15 @@ USER-AGENT,YouTube*,GBMedia
 DOMAIN-SUFFIX,googlevideo.com,GBMedia
 DOMAIN-SUFFIX,youtube.com,GBMedia
 DOMAIN,youtubei.googleapis.com,GBMedia
+
 # > Self-needs (do not duplicate)
 DOMAIN-SUFFIX,18comic.vip,GBMedia
 DOMAIN-SUFFIX,av01.tv,GBMedia
 DOMAIN-SUFFIX,netflav.com,GBMedia
+# > GitHub
+HOST-SUFFIX,github.com,GBMedia
+HOST-SUFFIX,github.io,GBMedia
+HOST-SUFFIX,githubapp.com,GBMedia
+HOST-SUFFIX,githubassets.com,GBMedia
+HOST-SUFFIX,githubusercontent.com,GBMedia
+HOST-KEYWORD,github,GBMedia
