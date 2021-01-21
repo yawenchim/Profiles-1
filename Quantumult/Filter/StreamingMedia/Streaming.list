@@ -70,9 +70,7 @@ DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GBMedia
 DOMAIN,d27xxe7juh1us6.cloudfront.net,GBMedia
 DOMAIN-KEYWORD,avoddashs,GBMedia
 # > Apple TV
-DOMAIN-SUFFIX,tv.apple.com,GBMedia
-DOMAIN,hls.itunes.apple.com,GBMedia
-DOMAIN,hls-amt.itunes.apple.com,GBMedia
+DOMAIN,linear.tv.apple.com,GBMedia
 DOMAIN,play-edge.itunes.apple.com,GBMedia
 # > Bahamut
 USER-AGENT,Anime*,GBMedia
@@ -204,6 +202,8 @@ DOMAIN-SUFFIX,netflixdnstest6.com,GBMedia
 DOMAIN-SUFFIX,netflixdnstest7.com,GBMedia
 DOMAIN-SUFFIX,netflixdnstest8.com,GBMedia
 DOMAIN-SUFFIX,netflixdnstest9.com,GBMedia
+DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GBMedia
+DOMAIN-KEYWORD,dualstack.ichnaea-web-,GBMedia
 IP-CIDR,23.246.0.0/18,GBMedia
 IP-CIDR,37.77.184.0/21,GBMedia
 IP-CIDR,45.57.0.0/17,GBMedia
@@ -221,7 +221,6 @@ USER-AGENT,Niconico*,GBMedia
 DOMAIN-SUFFIX,dmc.nico,GBMedia
 DOMAIN-SUFFIX,nicovideo.jp,GBMedia
 DOMAIN-SUFFIX,nimg.jp,GBMedia
-DOMAIN-SUFFIX,socdm.com,GBMedia
 # > Now E
 DOMAIN-SUFFIX,nowe.com,GBMedia
 DOMAIN-SUFFIX,nowestatic.com,GBMedia
