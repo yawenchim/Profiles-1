@@ -302,7 +302,7 @@ HOST-KEYWORD,steamuserimages,GBMedia
 
 # > Clubhouse
 USER-AGENT,Clubhouse*,GBMedia
-IP-CIDR,52.52.84.170/32,no-resolve,GBMedia
+IP-CIDR,52.52.84.170/32,GBMedia
 DOMAIN,www.clubhouseapi.com,GBMedia
 DOMAIN,clubhouseprod.s3.amazonaws.com,GBMedia
 DOMAIN,clubhouse.pubnub.com,GBMedia
