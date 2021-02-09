@@ -299,3 +299,12 @@ HOST-SUFFIX,valvesoftware.com,GBMedia
 HOST-KEYWORD,steambroadcast,GBMedia
 HOST-KEYWORD,steamstore,GBMedia
 HOST-KEYWORD,steamuserimages,GBMedia
+
+# > Clubhouse
+USER-AGENT,Clubhouse*,GBMedia
+IP-CIDR,52.52.84.170/32,no-resolve,GBMedia
+DOMAIN,www.clubhouseapi.com,GBMedia
+DOMAIN,clubhouseprod.s3.amazonaws.com,GBMedia
+DOMAIN,clubhouse.pubnub.com,GBMedia
+DOMAIN,maintenance.joinclubhouse.com,GBMedia
+DOMAIN-KEYWORD,clubhouse,GBMedia
