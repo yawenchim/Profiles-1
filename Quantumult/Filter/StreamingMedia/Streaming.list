@@ -259,6 +259,7 @@ DOMAIN-SUFFIX,18comic.vip,GBMedia
 DOMAIN-SUFFIX,18comic.org,GBMedia
 DOMAIN-SUFFIX,av01.tv,GBMedia
 DOMAIN-SUFFIX,netflav.com,GBMedia
+DOMAIN,dx.18comic.asia,GBMedia
 # > GitHub
 HOST-SUFFIX,github.com,GBMedia
 HOST-SUFFIX,github.io,GBMedia
