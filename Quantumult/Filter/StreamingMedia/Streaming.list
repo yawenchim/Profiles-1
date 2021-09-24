@@ -1,8 +1,12 @@
-# GBMedia Media
-# (Podcast)
-# > Himalaya
-USER-AGENT,Himalaya*,GBMedia
-DOMAIN-SUFFIX,himalaya.com,GBMedia
+# GB Media
+
+# (Live)
+# > Twitch
+DOMAIN-SUFFIX,jtvnw.net,GBMedia
+DOMAIN-SUFFIX,ttvnw.net,GBMedia
+DOMAIN-SUFFIX,twitch.tv,GBMedia
+DOMAIN-SUFFIX,twitchcdn.net,GBMedia
+
 # (Music)
 # > Deezer
 USER-AGENT,Deezer*,GBMedia
@@ -39,6 +43,15 @@ DOMAIN-SUFFIX,tidal.com,GBMedia
 # > YouTubeMusic
 USER-AGENT,com.google.ios.youtubemusic*,GBMedia
 USER-AGENT,YouTubeMusic*,GBMedia
+
+# (Podcast)
+# > Himalaya
+USER-AGENT,Himalaya*,GBMedia
+DOMAIN-SUFFIX,himalaya.com,GBMedia
+# > Overcast
+USER-AGENT,Overcast*,GBMedia
+DOMAIN-SUFFIX,overcast.fm,GBMedia
+
 # (Video)
 # > AbemaTV
 USER-AGENT,AbemaTV*,GBMedia
@@ -68,6 +81,7 @@ DOMAIN,dmqdd6hw24ucf.cloudfront.net,GBMedia
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,GBMedia
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GBMedia
 DOMAIN,d27xxe7juh1us6.cloudfront.net,GBMedia
+# DOMAIN,www.amazon.com,GBMedia
 DOMAIN-KEYWORD,avoddashs,GBMedia
 # > Apple TV
 DOMAIN,linear.tv.apple.com,GBMedia
@@ -84,12 +98,29 @@ DOMAIN-SUFFIX,bbc.co.uk,GBMedia
 DOMAIN-SUFFIX,bbci.co.uk,GBMedia
 DOMAIN-KEYWORD,bbcfmt,GBMedia
 DOMAIN-KEYWORD,uk-live,GBMedia
+# > bilibili Intl
+DOMAIN-SUFFIX,biliintl.com,GBMedia
+DOMAIN,apm-misaka.biliapi.net,GBMedia
+DOMAIN,p.bstarstatic.com,GBMedia
+DOMAIN,p-bstarstatic.akamaized.net,GBMedia
+DOMAIN,upos-bstar-mirrorakam.akamaized.net,GBMedia
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net,GBMedia
 # > DAZN
 USER-AGENT,DAZN*,GBMedia
 DOMAIN-SUFFIX,dazn.com,GBMedia
 DOMAIN-SUFFIX,dazn-api.com,GBMedia
+DOMAIN-SUFFIX,dazndn.com,GBMedia
+DOMAIN-SUFFIX,indazn.com,GBMedia
 DOMAIN,d151l6v8er5bdm.cloudfront.net,GBMedia
 DOMAIN-KEYWORD,voddazn,GBMedia
+# > discovery+
+USER-AGENT,DPlus*,GBMedia
+USER-AGENT,discovery+*,GBMedia
+DOMAIN-SUFFIX,disco-api.com,GBMedia
+DOMAIN-SUFFIX,discoveryplus.co.uk,GBMedia
+DOMAIN-SUFFIX,discoveryplus.com,GBMedia
+DOMAIN-SUFFIX,discoveryplus.in,GBMedia
+DOMAIN-SUFFIX,dnitv.com,GBMedia
 # > Disney+
 USER-AGENT,Disney+*,GBMedia
 DOMAIN-SUFFIX,bamgrid.com,GBMedia
@@ -107,21 +138,6 @@ USER-AGENT,encoreTVB*,GBMedia
 DOMAIN-SUFFIX,encoretvb.com,GBMedia
 DOMAIN,edge.api.brightcove.com,GBMedia
 DOMAIN,bcbolt446c5271-a.akamaihd.net,GBMedia
-# > FOX NOW
-USER-AGENT,FOX%20NOW*,GBMedia
-DOMAIN-SUFFIX,fox.com,GBMedia
-DOMAIN-SUFFIX,foxdcg.com,GBMedia
-DOMAIN-SUFFIX,theplatform.com,GBMedia
-DOMAIN-SUFFIX,uplynk.com,GBMedia
-# > FOX+
-DOMAIN-SUFFIX,foxplus.com,GBMedia
-# DOMAIN-SUFFIX,theplatform.com,GBMedia
-DOMAIN,cdn-fox-networks-group-green.akamaized.net,GBMedia
-DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,GBMedia
-DOMAIN,foxsports01-i.akamaihd.net,GBMedia
-DOMAIN,foxsports02-i.akamaihd.net,GBMedia
-DOMAIN,foxsports03-i.akamaihd.net,GBMedia
-DOMAIN,staticasiafox.akamaized.net,GBMedia
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*,GBMedia
 DOMAIN-SUFFIX,hbo.com,GBMedia
@@ -129,21 +145,27 @@ DOMAIN-SUFFIX,hbogo.com,GBMedia
 DOMAIN-SUFFIX,hbonow.com,GBMedia
 USER-AGENT,HBOMAX*,GBMedia
 DOMAIN-SUFFIX,hbomax.com,GBMedia
-# > HBO GO HKG
-USER-AGENT,HBO%20GO%20PROD%20HKG*,GBMedia
+DOMAIN-SUFFIX,hbomaxcdn.com,GBMedia
+# > HBO Asia
+USER-AGENT,HBO%20GO%20PROD*,GBMedia
 DOMAIN-SUFFIX,hbogoasia.com,GBMedia
 DOMAIN-SUFFIX,hbogoasia.hk,GBMedia
-DOMAIN,bcbolthboa-a.akamaihd.net,GBMedia
-DOMAIN,players.brightcove.net,GBMedia
-DOMAIN,s3-ap-southeast-1.amazonaws.com,GBMedia
-DOMAIN,dai3fd1oh325y.cloudfront.net,GBMedia
+DOMAIN-KEYWORD,.hbogoasia.,GBMedia
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,GBMedia
+DOMAIN,bcbolthboa-a.akamaihd.net,GBMedia
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GBMedia
+DOMAIN,dai3fd1oh325y.cloudfront.net,GBMedia
 DOMAIN,hboasia1-i.akamaihd.net,GBMedia
 DOMAIN,hboasia2-i.akamaihd.net,GBMedia
 DOMAIN,hboasia3-i.akamaihd.net,GBMedia
 DOMAIN,hboasia4-i.akamaihd.net,GBMedia
 DOMAIN,hboasia5-i.akamaihd.net,GBMedia
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GBMedia
+DOMAIN,hboasialive.akamaized.net,GBMedia
+DOMAIN,hbogoprod-vod.akamaized.net,GBMedia
+DOMAIN,hbolb.onwardsmg.com,GBMedia
+DOMAIN,hbounify-prod.evergent.com,GBMedia
+DOMAIN,players.brightcove.net,GBMedia
+DOMAIN,s3-ap-southeast-1.amazonaws.com,GBMedia
 # > 华文电视
 USER-AGENT,HWTVMobile*,GBMedia
 DOMAIN-SUFFIX,5itv.tv,GBMedia
@@ -161,6 +183,25 @@ USER-AGENT,ITV_Player*,GBMedia
 DOMAIN-SUFFIX,itv.com,GBMedia
 DOMAIN-SUFFIX,itvstatic.com,GBMedia
 DOMAIN,itvpnpmobile-a.akamaihd.net,GBMedia
+# > iQIYI
+DOMAIN-SUFFIX,iq.com,GBMedia
+DOMAIN,intl.iqiyi.com,GBMedia
+DOMAIN,intl-rcd.iqiyi.com,GBMedia
+DOMAIN,intl-subscription.iqiyi.com,GBMedia
+IP-CIDR,23.53.32.88/32,GBMedia
+IP-CIDR,23.211.15.99/32,GBMedia
+IP-CIDR,103.5.34.153/32,GBMedia
+IP-CIDR,104.109.129.153/32,GBMedia
+IP-CIDR,110.238.107.47/32,GBMedia
+IP-CIDR,118.26.32.178/32,GBMedia
+IP-CIDR,203.74.95.131/32,GBMedia
+IP-CIDR,203.74.95.139/32,GBMedia
+IP-CIDR,203.74.95.153/32,GBMedia
+IP-CIDR,203.211.4.169/32,GBMedia
+IP-CIDR,203.211.4.193/32,GBMedia
+IP-CIDR,210.71.227.202/32,GBMedia
+IP-CIDR,210.201.32.8/32,GBMedia
+IP-CIDR,210.201.32.11/32,GBMedia
 # > KKTV
 USER-AGENT,KKTV*,GBMedia
 USER-AGENT,com.kktv.ios.kktv*,GBMedia
@@ -174,6 +215,9 @@ DOMAIN,d3c7rimkq79yfu.cloudfront.net,GBMedia
 # > LiTV
 DOMAIN-SUFFIX,litv.tv,GBMedia
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,GBMedia
+# > MangoTV(芒果TV国际)
+DOMAIN-SUFFIX,api.mgtv.com,GBMedia
+DOMAIN,mobileso.bz.mgtv.com,GBMedia
 # > My5
 USER-AGENT,My5*,GBMedia
 DOMAIN-SUFFIX,channel5.com,GBMedia
@@ -183,6 +227,10 @@ DOMAIN,d349g9zuie06uo.cloudfront.net,GBMedia
 USER-AGENT,mytv*,GBMedia
 DOMAIN-SUFFIX,mytvsuper.com,GBMedia
 DOMAIN-SUFFIX,tvb.com,GBMedia
+# > Naver TV
+USER-AGENT,Naver%20TV*,GBMedia
+DOMAIN-SUFFIX,naver.com,GBMedia
+DOMAIN-SUFFIX,smartmediarep.com,GBMedia
 # > Netflix
 USER-AGENT,Argo*,GBMedia
 DOMAIN-SUFFIX,netflix.com,GBMedia
@@ -202,7 +250,7 @@ DOMAIN-SUFFIX,netflixdnstest6.com,GBMedia
 DOMAIN-SUFFIX,netflixdnstest7.com,GBMedia
 DOMAIN-SUFFIX,netflixdnstest8.com,GBMedia
 DOMAIN-SUFFIX,netflixdnstest9.com,GBMedia
-DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GBMedia
+DOMAIN-KEYWORD,dualstack.apiproxy-,GBMedia
 DOMAIN-KEYWORD,dualstack.ichnaea-web-,GBMedia
 IP-CIDR,23.246.0.0/18,GBMedia
 IP-CIDR,37.77.184.0/21,GBMedia
@@ -224,18 +272,47 @@ DOMAIN-SUFFIX,nimg.jp,GBMedia
 # > Now E
 DOMAIN-SUFFIX,nowe.com,GBMedia
 DOMAIN-SUFFIX,nowestatic.com,GBMedia
+# > Paramount+
+USER-AGENT,PPlus*,GBMedia
+DOMAIN-SUFFIX,cbsi.com,GBMedia
+DOMAIN-SUFFIX,cbsaavideo.com,GBMedia
+DOMAIN-SUFFIX,cbsivideo.com,GBMedia
+DOMAIN-SUFFIX,paramountplus.com,GBMedia
+DOMAIN-SUFFIX,pplusstatic.com,GBMedia
+DOMAIN,cbsi.live.ott.irdeto.com,GBMedia
+DOMAIN,cbsplaylistserver.aws.syncbak.com,GBMedia
+DOMAIN,cbsservice.aws.syncbak.com,GBMedia
+DOMAIN,link.theplatform.com,GBMedia
 # > PBS
 USER-AGENT,PBS*,GBMedia
 DOMAIN-SUFFIX,pbs.org,GBMedia
+# > Peacock
+USER-AGENT,PeacockMobile*,GBMedia
+DOMAIN-SUFFIX,peacocktv.com,GBMedia
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,GBMedia
+DOMAIN-SUFFIX,phprcdn.com,GBMedia
+DOMAIN-SUFFIX,pornhub.com,GBMedia
+DOMAIN-SUFFIX,pornhubpremium.com,GBMedia
 # > 台湾好
 USER-AGENT,TaiwanGood*,GBMedia
 DOMAIN-SUFFIX,skyking.com.tw,GBMedia
 DOMAIN,hamifans.emome.net,GBMedia
-# > Twitch
-DOMAIN-SUFFIX,jtvnw.net,GBMedia
-DOMAIN-SUFFIX,ttvnw.net,GBMedia
-DOMAIN-SUFFIX,twitch.tv,GBMedia
-DOMAIN-SUFFIX,twitchcdn.net,GBMedia
+# > TikTok
+USER-AGENT,TikTok*,GBMedia
+DOMAIN-SUFFIX,byteoversea.com,GBMedia
+DOMAIN-SUFFIX,ibytedtos.com,GBMedia
+DOMAIN-SUFFIX,muscdn.com,GBMedia
+DOMAIN-SUFFIX,musical.ly,GBMedia
+DOMAIN-SUFFIX,tiktok.com,GBMedia
+DOMAIN-SUFFIX,tik-tokapi.com,GBMedia
+DOMAIN-SUFFIX,tiktokcdn.com,GBMedia
+DOMAIN-SUFFIX,tiktokv.com,GBMedia
+DOMAIN-KEYWORD,-tiktokcdn-com,GBMedia
+# > TVer
+USER-AGENT,TVer-Release*,GBMedia
+DOMAIN-SUFFIX,tver.jp,GBMedia
+DOMAIN,edge.api.brightcove.com,GBMedia
 # > ViuTV
 USER-AGENT,Viu*,GBMedia
 DOMAIN-SUFFIX,viu.com,GBMedia
@@ -244,12 +321,19 @@ DOMAIN,api.viu.now.com,GBMedia
 DOMAIN,d1k2us671qcoau.cloudfront.net,GBMedia
 DOMAIN,d2anahhhmp1ffz.cloudfront.net,GBMedia
 DOMAIN,dfp6rglgjqszk.cloudfront.net,GBMedia
+# > WeTV
+USER-AGENT,WeTV*,GBMedia
+DOMAIN-SUFFIX,wetv.vip,GBMedia
+DOMAIN-SUFFIX,wetvinfo.com,GBMedia
+IP-CIDR,150.109.28.51/32,GBMedia
 # > YouTube
 USER-AGENT,com.google.ios.youtube*,GBMedia
 USER-AGENT,YouTube*,GBMedia
 DOMAIN-SUFFIX,googlevideo.com,GBMedia
 DOMAIN-SUFFIX,youtube.com,GBMedia
+DOMAIN-SUFFIX,ytimg.com,GBMedia
 DOMAIN,youtubei.googleapis.com,GBMedia
+DOMAIN,yt3.ggpht.com,GBMedia
 
 # > Self-needs (do not duplicate)
 DOMAIN-SUFFIX,trwl1.com,GBMedia
@@ -259,7 +343,10 @@ DOMAIN-SUFFIX,18comic.vip,GBMedia
 DOMAIN-SUFFIX,18comic.org,GBMedia
 DOMAIN-SUFFIX,av01.tv,GBMedia
 DOMAIN-SUFFIX,netflav.com,GBMedia
+DOMAIN-SUFFIX,erocool.com,GBMedia
+DOMAIN-SUFFIX,erocool.me,GBMedia
 DOMAIN,dx.18comic.asia,GBMedia
+
 # > GitHub
 HOST-SUFFIX,github.com,GBMedia
 HOST-SUFFIX,github.io,GBMedia
