@@ -345,7 +345,8 @@ DOMAIN-SUFFIX,av01.tv,GBMedia
 DOMAIN-SUFFIX,netflav.com,GBMedia
 DOMAIN-SUFFIX,erocool.com,GBMedia
 DOMAIN-SUFFIX,erocool.me,GBMedia
-DOMAIN,dx.18comic.asia,GBMedia
+DOMAIN-SUFFIX,pthcdn.xyz
+DOMAIN-SUFFIX,18comic.asia,GBMedia
 
 # > GitHub
 HOST-SUFFIX,github.com,GBMedia
