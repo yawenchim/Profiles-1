@@ -347,6 +347,7 @@ DOMAIN-SUFFIX,erocool.com,GBMedia
 DOMAIN-SUFFIX,erocool.me,GBMedia
 DOMAIN-SUFFIX,pthcdn.xyz,GBMedia
 DOMAIN-SUFFIX,18comic.asia,GBMedia
+DOMAIN-SUFFIX,mercari.com,GBMedia
 
 # > GitHub
 HOST-SUFFIX,github.com,GBMedia
@@ -355,6 +356,7 @@ HOST-SUFFIX,githubapp.com,GBMedia
 HOST-SUFFIX,githubassets.com,GBMedia
 HOST-SUFFIX,githubusercontent.com,GBMedia
 HOST-KEYWORD,github,GBMedia
+
 # > Steam
 HOST-SUFFIX,csgo.wmsj.cn,GBMedia
 HOST-SUFFIX,dl.steam.ksyna.com,GBMedia
